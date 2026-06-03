@@ -76,7 +76,7 @@ chmod +x "$MOCK_BIN_DIR/gzip"
 # Create Mock Config
 CONFIG_DIR="$TEST_DIR/config"
 mkdir -p "$CONFIG_DIR"
-CONFIG_FILE="$CONFIG_DIR/PostgreSQL_SwissKnife.conf"
+CONFIG_FILE="$CONFIG_DIR/pgSQL_SwissKnife.conf"
 
 cat << EOF > "$CONFIG_FILE"
 PROFILES_NAME=("TestProfile")
