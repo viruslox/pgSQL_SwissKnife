@@ -7,7 +7,7 @@ set -e
 
 # Path to the script under test
 PERFORMANCE_SH="$(dirname "$0")/../modules/Performance.sh"
-CONFIG_FILE="$(dirname "$0")/../config/PostgreSQL_SwissKnife.conf"
+CONFIG_FILE="$(dirname "$0")/../config/pgSQL_SwissKnife.conf"
 
 # 1. Setup Test Environment
 TEST_DIR=$(mktemp -d)
