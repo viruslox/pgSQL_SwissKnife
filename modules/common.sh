@@ -5,7 +5,7 @@
 # Ensure we are in the modules directory
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SUITE_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
-CONFIG_FILE="${SUITE_DIR}/config/PostgreSQL_SwissKnife.conf"
+CONFIG_FILE="${SUITE_DIR}/config/pgSQL_SwissKnife.conf"
 
 # Ensure essential directories exist
 init_suite() {
