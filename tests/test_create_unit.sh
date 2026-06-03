@@ -14,7 +14,7 @@ trap 'rm -rf "$SYSTEMD_USER_DIR"' EXIT
 export PROFILE_NAME="Test Profile"
 export SAFE_NAME="TestProfile"
 export SUITE_DIR="/opt/suite"
-export CONFIG_FILE="/opt/suite/config/PostgreSQL_SwissKnife.conf"
+export CONFIG_FILE="/opt/suite/config/pgSQL_SwissKnife.conf"
 export IDX=0
 
 # Mock systemctl
