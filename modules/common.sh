@@ -17,7 +17,7 @@ init_suite() {
 
 # Migrate legacy config (called primarily by Setup.sh)
 migrate_legacy_config() {
-    local LEGACY_CONFIG="${HOME}/PostgreSQL_SwissKnife.conf"
+    local LEGACY_CONFIG="${HOME}/pgSQL_SwissKnife.conf"
     if [[ -f "$LEGACY_CONFIG" && ! -f "$CONFIG_FILE" ]]; then
         echo "[INFO]: Migrating configuration from $LEGACY_CONFIG to $CONFIG_FILE"
         mkdir -p "$(dirname "$CONFIG_FILE")"
